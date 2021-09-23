@@ -1,3 +1,16 @@
 def draw_power_plant():
-    print("power plant not found")
+    s = '''          ) ) )                     ) ) )
+        ( ( (                      ( ( (
+      ) ) )                       ) ) )
+   (~~~~~~~~~)                 (~~~~~~~~~)
+    | POWER |                   | POWER |
+    |       |                   |       |
+    I      _._                  I       _._
+    I    /'   `\                I     /'   `
+    I   |   N   |               I    |   N   |
+    f   |   |~~~~~~~~~~~~~~|    f    |    |~~~~~~~~~~~~~~|
+  .'    |   ||~~~~~~~~|    |  .'     |    | |~~~~~~~~|   |
+/'______|___||__###___|____|/'_______|____|_|__###___|___|'''
+    #Credit to https://www.asciiart.eu/buildings-and-places/other
+    print(s)
     return
