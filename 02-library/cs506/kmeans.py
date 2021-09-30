@@ -11,7 +11,12 @@ def point_avg(points):
     
     Returns a new point which is the center of all the points.
     """
-    raise NotImplementedError()
+    x = 0
+    y = 0
+    for point in points:
+        x = x + point[0]
+        y = y + point[1]
+    return [x / len(x), y / len(y)]
 
 
 def update_centers(dataset, assignments):
